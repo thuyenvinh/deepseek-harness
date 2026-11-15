@@ -161,3 +161,21 @@ export const pt = {
   saveFailed: 'A implantação não aceitou esses valores; eles foram deixados para você corrigir.',
   invalidNumber: 'Insira um número ou deixe em branco para usar o padrão.',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'title': 'Shell',
+  'description': 'Giới hạn thời gian chạy tối đa và lượng đầu ra của mỗi lệnh.',
+  'timeoutMs': 'Thời gian chờ lệnh (mili giây)',
+  'timeoutMsHint': 'Thời gian tối đa một lệnh được phép chạy trước khi bị chấm dứt.',
+  'maxOutputBytes': 'Giới hạn đầu ra mỗi luồng (byte)',
+  'maxOutputBytesHint': 'Dữ liệu vượt quá giới hạn này sẽ được chuyển vào tệp tạm thời thay vì bị mất.',
+  'overridden': 'Đã ghi đè',
+  'reset': 'Khôi phục mặc định',
+  'readOnly': 'Bản triển khai này lưu cài đặt ở chế độ chỉ đọc.',
+  'unavailable': 'Tiện ích mở rộng này hiện chưa được tải nên tạm thời không thể định cấu hình.',
+  'save': 'Lưu',
+  'saving': 'Đang lưu…',
+  'saveFailed': 'Bản triển khai không chấp nhận các giá trị này; chúng được giữ lại để bạn chỉnh sửa.',
+  'invalidNumber': 'Nhập một số, hoặc để trống để sử dụng mặc định.',
+} satisfies Record<keyof typeof en, string>

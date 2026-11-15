@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Cây làm việc Git",
+    "description": "Khi bạn yêu cầu làm việc trên nhánh mới, tác nhân sẽ tạo một cây làm việc Git (worktree) riêng biệt và tiếp tục tại đó mà không làm thay đổi nhánh bạn đang mở.",
+    "detail": "docs/DETAIL.md"
+  }
+}

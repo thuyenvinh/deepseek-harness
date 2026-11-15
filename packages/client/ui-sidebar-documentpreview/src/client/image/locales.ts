@@ -1,4 +1,4 @@
-import { zoomEn, zoomJa, zoomEs, zoomFr, zoomDe, zoomRu, zoomPt, zoomZh } from '../zoom/locales.ts'
+import { zoomEn, zoomVi, zoomJa, zoomEs, zoomFr, zoomDe, zoomRu, zoomPt, zoomZh } from '../zoom/locales.ts'
 
 /** Locale-owned image renderer labels and status text. */
 export const zh = {
@@ -88,4 +88,14 @@ export const pt = {
   loading: 'Renderizando documento...',
   failed: 'Esta imagem não pôde ser exibida.',
   unsupported: 'A visualização da imagem requer o conteúdo completo do arquivo.',
+} satisfies Record<keyof typeof en, string>
+
+/** Vietnamese dictionary, checked against the English keys. */
+export const vi = {
+  ...zoomVi,
+  'title': 'Hình ảnh',
+  'preview': 'Xem trước hình ảnh: {name}',
+  'loading': 'Đang hiển thị tài liệu...',
+  'failed': 'Không thể hiển thị hình ảnh này.',
+  'unsupported': 'Xem trước hình ảnh yêu cầu nội dung tập tin hoàn chỉnh.',
 } satisfies Record<keyof typeof en, string>

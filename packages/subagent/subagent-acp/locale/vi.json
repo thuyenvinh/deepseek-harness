@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Backend tác nhân con ACP",
+    "description": "Chạy các tác nhân bên ngoài trong tiến trình con thông qua giao thức ACP."
+  }
+}

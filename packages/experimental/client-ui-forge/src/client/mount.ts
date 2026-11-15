@@ -41,7 +41,7 @@ import { ChangesTabTitle } from './ChangesTabTitle.tsx'
 import {
   CheckoutRow, ConnectionRow, LocalChangesRow, type CheckoutRowInjected, type ConnectionRowInjected, type LocalChangesRowInjected,
 } from './EnvironmentRows.tsx'
-import { de, en, es, fr, ja, NS, pt, ru, zh, type ForgePanelKey } from './locales.ts'
+import { de, en, es, fr, ja, NS, pt, vi, ru, zh, type ForgePanelKey } from './locales.ts'
 import type { SessionListInjected } from './session-list.ts'
 import { SessionHoverForge } from './SessionHoverForge.tsx'
 import { SessionRowForge } from './SessionRowForge.tsx'
@@ -92,7 +92,7 @@ interface SessionStores {
 const AUTO_REFRESH_MIN_MS = 10_000
 
 function registerUi(ctx: Context): void {
-  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt }), 'forge-panel: dictionaries')
+  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt, vi }), 'forge-panel: dictionaries')
   const t = ctx.locale.bind(NS)
   const notices = createNoticeSource()
   const lifetime = new AbortController()

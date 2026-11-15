@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Kết nối giao diện phiên",
+    "description": "Kết nối các thao tác điều khiển và trạng thái của phiên với các thành phần giao diện React."
+  }
+}

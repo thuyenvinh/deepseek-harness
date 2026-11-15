@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Nhà cung cấp máy chủ ngôn ngữ Stdio",
+    "description": "Kết nối với máy chủ ngôn ngữ thông qua các tiến trình con và JSON-RPC, mở tệp khi cần và thực hiện các truy vấn mã."
+  }
+}

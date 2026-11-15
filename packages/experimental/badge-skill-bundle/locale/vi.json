@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Kỹ năng huy hiệu DSH",
+    "description": "Cho phép tác nhân thêm huy hiệu “powered by dsh” vào tài liệu, pull request và các sản phẩm đầu ra khác.",
+    "detail": "docs/DETAIL.md"
+  }
+}

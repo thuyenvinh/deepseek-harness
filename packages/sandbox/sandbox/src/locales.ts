@@ -40,6 +40,12 @@ export const pt = {
   escalation: (mode: string, justification: string): string => `Permitir esta operação com permissões ${mode}: ${justification}`,
 } satisfies typeof en
 
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'escalation': '',
+} satisfies Record<keyof typeof en, string>
+
+
 /**
  * Build translations for the existing Client localized-text resolver.
  * @param mode - requested sandbox mode.

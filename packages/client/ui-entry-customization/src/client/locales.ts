@@ -85,3 +85,14 @@ export const pt = {
   'createPrompt.conversation': 'Crie um plug-in de visualização de conversa DSH.',
   'createPrompt.rightbar': 'Crie um plug-in DSH com uma entrada na barra lateral direita.',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'pinTooltip': 'Ghim vào thanh bên trái',
+  'pin': 'Ghim {name} vào thanh bên',
+  'install': 'Duyệt các tiện ích mở rộng khác',
+  'create': 'Tạo tiện ích mở rộng của bạn',
+  'createPrompt.sidebar': 'Tạo một tiện ích mở rộng DSH có lối vào ở thanh bên trái.',
+  'createPrompt.conversation': 'Tạo một tiện ích mở rộng xem cuộc hội thoại DSH.',
+  'createPrompt.rightbar': 'Tạo một tiện ích mở rộng DSH có lối vào ở thanh bên phải.',
+} satisfies Record<keyof typeof en, string>

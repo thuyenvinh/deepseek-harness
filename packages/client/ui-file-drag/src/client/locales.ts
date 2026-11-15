@@ -22,6 +22,12 @@ export const ru = { failed: 'Перетащить не удалось. Попр�
 /** Portuguese dictionary, checked against the English keys. */
 export const pt = { failed: 'Falha ao arrastar. Tente novamente.' } satisfies Record<keyof typeof en, string>
 
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'failed': 'Kéo thả thất bại. Thử lại.',
+} satisfies Record<keyof typeof en, string>
+
+
 declare module '@deepseek-ai/dsh-client-ui-slots' {
   interface LocaleNamespaceMap {
     /** File transfer failure feedback. */

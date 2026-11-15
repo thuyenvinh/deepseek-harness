@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Thao tác máy tính",
+    "description": "Điều khiển các ứng dụng trên macOS và Windows. Trên Windows, các bản cài đặt qua npm yêu cầu định cấu hình riêng một trình hỗ trợ (helper).",
+    "detail": "docs/DETAIL.md"
+  }
+}

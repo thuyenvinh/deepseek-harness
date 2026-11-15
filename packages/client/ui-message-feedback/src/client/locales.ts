@@ -201,3 +201,27 @@ export const pt = {
   'error.generic': 'Não foi possível salvar o feedback',
   'error.noteTooLarge': 'A descrição é muito longa; encurte-o e envie novamente',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'action.like': 'Câu trả lời tốt',
+  'action.likeActive': 'Hủy xếp hạng',
+  'action.dislike': 'Câu trả lời có vấn đề',
+  'action.dislikeActive': 'Hủy xếp hạng',
+  'dialog.title': 'Gửi phản hồi',
+  'dialog.categories': 'Danh mục phản hồi',
+  'dialog.detail': 'Chi tiết phản hồi',
+  'dialog.hint': 'Thêm thông tin chi tiết để giúp chúng tôi cải thiện. Nội dung gửi của bạn sẽ bao gồm nhật ký phiên trò chuyện hiện tại.',
+  'category.task-result': 'Kết quả tác vụ',
+  'category.instruction-following': 'Hiểu và làm theo hướng dẫn',
+  'category.product-interaction': 'Tính năng và tương tác sản phẩm',
+  'category.service-stability': 'Độ ổn định và tốc độ',
+  'category.resource-cost': 'Mức sử dụng tài nguyên và chi phí',
+  'category.security-privacy-permission': 'Bảo mật, quyền riêng tư và quyền hạn',
+  'category.other': 'Khác',
+  'toast.recorded': 'Cảm ơn phản hồi của bạn',
+  'error.conflict': 'Phản hồi này đã thay đổi ở nơi khác; hiển thị trạng thái mới nhất',
+  'error.load': 'Không thể tải phản hồi',
+  'error.generic': 'Không thể lưu phản hồi',
+  'error.noteTooLarge': 'Mô tả quá dài; hãy rút ngắn và gửi lại',
+} satisfies Record<keyof typeof en, string>

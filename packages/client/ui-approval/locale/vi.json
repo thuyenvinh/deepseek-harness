@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Giao diện phê duyệt thao tác",
+    "description": "Hiển thị các thao tác chờ phê duyệt và gửi lựa chọn của người dùng lại cho tác vụ đang chạy."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Lưu trữ SQLite",
+    "description": "Cung cấp backend lưu trữ khóa-giá trị SQLite cho dịch vụ lưu trữ của Harness."
+  }
+}

@@ -1,6 +1,6 @@
 /** Locale bundles for the agent-preset hero chip, header label, and management section. */
 
-import { guideEn, guideJa, guideEs, guideFr, guideDe, guideRu, guidePt, guideZh, type PresetGuideKey } from './guide-locales.ts'
+import { guideEn, guideJa, guideEs, guideFr, guideDe, guideRu, guidePt, guideVi, guideZh, type PresetGuideKey } from './guide-locales.ts'
 
 /** Locale keys these surfaces render. */
 export type AgentPresetSettingsKey =
@@ -382,4 +382,37 @@ export const pt = {
   createPluginUnavailable: 'Temporariamente indisponível. Reabra este menu para tentar novamente',
   createPluginMissing: 'O modo criador não está incluído nesta configuração',
 
+} satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  ...guideVi,
+  'builtInGroup': 'Tích hợp',
+  'customGroup': 'Tùy chỉnh',
+  'sectionIntro': 'Chọn công cụ và phương thức hoạt động của tác nhân. Dùng chế độ Tiêu chuẩn cho các tác vụ hàng ngày, hoặc chế độ Sáng tạo để mở rộng tính năng cho DSH.',
+  'seatHint': 'Chọn cấu hình mẫu tác nhân cho tác vụ mới',
+  'headerHint': 'Cấu hình mẫu tác nhân được chọn khi tác vụ này bắt đầu',
+  'nav': 'Cấu hình mẫu tác nhân',
+  'setDefault': 'Đặt làm mặc định cho tác vụ mới',
+  'view': 'Xem cấu hình',
+  'presetStandardName': 'Chế độ Tiêu chuẩn',
+  'presetStandardDescription': 'Làm việc với mã nguồn, tệp tin và thông tin. Phù hợp cho hầu hết các tác vụ, với các công cụ tìm kiếm, chỉnh sửa, lệnh terminal và các công cụ khác khi cần.',
+  'presetPtcName': 'Chế độ PTC',
+  'presetPtcDescription': 'Bao gồm tất cả khả năng của chế độ Tiêu chuẩn. Phù hợp hơn cho các tác vụ gọi công cụ hàng loạt rồi lọc, sắp xếp, khử trùng lặp, thống kê hoặc tóm tắt kết quả.',
+  'presetMinimalName': 'Chế độ Tối giản',
+  'presetMinimalDescription': 'Tác nhân sử dụng terminal và công cụ đọc hình ảnh, hỗ trợ nén ngữ cảnh. Hữu ích cho việc kiểm thử và so sánh hiệu năng cơ bản.',
+  'presetCordisName': 'Chế độ Sáng tạo',
+  'presetCordisDescription': 'Tùy biến DSH thông qua trò chuyện. Để tác nhân viết tiện ích mở rộng bổ sung tính năng hoặc giao diện người dùng, hoặc kết hợp công cụ và lời nhắc để tạo chế độ riêng của bạn.',
+  'inUse': 'Mặc định cho tác vụ mới',
+  'noDescription': 'Không có mô tả.',
+  'brokenBadge': 'Tải thất bại',
+  'switchRefused': 'Không thể chuyển sang {name}: {reason}',
+  'standardUnavailable': 'Chế độ Tiêu chuẩn không khả dụng. Hãy khôi phục lại hoặc chọn một chế độ khả dụng khác.',
+  'close': 'Đóng',
+  'creatorDraft': 'Để tác nhân giúp tôi tạo cấu hình mẫu',
+  'createPlugin': 'Để tác nhân tạo tiện ích mở rộng',
+  'createPluginDescription': 'Vào chế độ Sáng tạo và tự tạo tiện ích mở rộng DSH của bạn',
+  'createPluginChecking': 'Đang kiểm tra xem chế độ Sáng tạo có khả dụng không',
+  'createPluginUnavailable': 'Tạm thời không khả dụng. Hãy mở lại menu này để thử lại',
+  'createPluginMissing': 'Chế độ Sáng tạo không có trong cấu hình này',
 } satisfies Record<keyof typeof en, string>

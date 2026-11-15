@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Nhập giọng nói",
+    "description": "Chuyển đổi bản ghi âm cục bộ thành văn bản bằng SenseVoice; lần đầu sử dụng cần cài đặt các gói phụ thuộc.",
+    "detail": "docs/DETAIL.md"
+  }
+}

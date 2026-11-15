@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Giao diện mở rộng Claude Code",
+    "description": "Hiển thị cây mở rộng của từng phiên làm việc phía trên hộp nhập liệu và gửi các thao tác nút tới dịch vụ mở rộng."
+  }
+}

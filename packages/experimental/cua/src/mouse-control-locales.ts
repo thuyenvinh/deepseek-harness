@@ -9,6 +9,7 @@ export const mouseControlPrompt = {
     de: 'Darf der Agent den Mauszeiger bewegen und mit gedrückter Maustaste ziehen?',
     ru: 'Разрешить агенту перемещать указатель и перетаскивать объекты с помощью мыши?',
     pt: 'Permitir que o agente mova o ponteiro e arraste com o seu mouse?',
+    vi: 'Cho phép tác nhân di chuyển con trỏ và kéo thả bằng chuột của bạn?',
   },
   detail: {
     en: 'The agent can move your pointer and drag with a mouse button held when it explicitly requests control. Your choice lasts until you close this session or restart DSH.',
@@ -19,5 +20,6 @@ export const mouseControlPrompt = {
     de: 'Auf ausdrückliche Anforderung darf der Agent den Mauszeiger bewegen und mit gedrückter Maustaste ziehen. Ihre Entscheidung gilt, bis Sie die Sitzung schließen oder DSH neu starten.',
     ru: 'По явному запросу агент сможет перемещать указатель и перетаскивать объекты с нажатой кнопкой мыши. Выбор сохраняется до закрытия сеанса или перезапуска DSH.',
     pt: 'Quando solicitar explicitamente, o agente poderá mover o ponteiro e arrastar com um botão do mouse pressionado. Sua escolha vale até encerrar a sessão ou reiniciar o DSH.',
+    vi: 'Khi có yêu cầu rõ ràng, tác nhân có thể di chuyển con trỏ và kéo thả khi giữ nút chuột. Lựa chọn của bạn có hiệu lực cho đến khi bạn đóng phiên này hoặc khởi động lại DSH.',
   },
 }

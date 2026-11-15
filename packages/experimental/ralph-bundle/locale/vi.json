@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Vòng lặp Ralph",
+    "description": "Khi yêu cầu một vòng lặp Ralph với mục tiêu định sẵn, tác nhân sẽ khởi động một tác nhân mới qua từng lượt để xử lý cho đến khi đạt được mục tiêu, báo cáo bị chặn hoặc chạm giới hạn số lượt.",
+    "detail": "docs/DETAIL.md"
+  }
+}

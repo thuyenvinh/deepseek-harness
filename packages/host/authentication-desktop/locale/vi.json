@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Xác thực Desktop",
+    "description": "Xác thực các yêu cầu Desktop bằng thông tin xác thực riêng tư được chia sẻ giữa tiến trình cha và tiến trình Host."
+  }
+}

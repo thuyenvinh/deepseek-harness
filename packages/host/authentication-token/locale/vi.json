@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Xác thực Token",
+    "description": "Đổi Token khởi chạy lấy quyền truy cập trình duyệt và xác thực các yêu cầu bằng Cookie đã ký."
+  }
+}

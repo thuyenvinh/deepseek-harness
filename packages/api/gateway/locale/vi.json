@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cổng gọi từ xa",
+    "description": "Tiếp nhận các lệnh gọi giao diện từ máy khách và chuyển tiếp đến dịch vụ tương ứng."
+  }
+}

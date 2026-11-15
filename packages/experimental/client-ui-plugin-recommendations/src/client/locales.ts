@@ -232,3 +232,32 @@ export const pt = {
   closing: 'O serviço está sendo recarregado. Tente novamente em instantes.',
   transport: 'Não foi possível confirmar o resultado. Atualize e tente novamente.',
 } satisfies Record<RecommendationKey, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'heading': 'Tiện ích mở rộng được đề xuất',
+  'official': 'Chính thức',
+  'detailsFor': 'Xem chi tiết: {title}',
+  'version-error': 'Tiện ích mở rộng này không tương thích với phiên bản DSH hiện tại. Hãy cập nhật DSH và thử lại.',
+  'management-error': 'Không thể bật tiện ích mở rộng. Mở chi tiết để kiểm tra lỗi và thử lại.',
+  'enable': 'Bật',
+  'dismiss': 'Để sau',
+  'working': 'Đang xử lý…',
+  'scope': 'Có sẵn trong tất cả các phiên trò chuyện khi được bật',
+  'enabled': 'Đã bật',
+  'already-enabled': 'Đã được chọn trong mục Tiện ích mở rộng. Mở chi tiết để kiểm tra trạng thái hoạt động.',
+  'dismissed': 'Đã bỏ qua',
+  'replaced': 'Đã thay thế',
+  'restart-required': 'Đã lưu. Khởi động lại DSH để áp dụng.',
+  'failed': 'Không thể bật. Thử lại hoặc kiểm tra mục Tiện ích mở rộng.',
+  'retry': 'Thử bật lại',
+  'unconfirmed': 'Không thể xác nhận tiện ích mở rộng đã được bật hay chưa. Thử lại để kiểm tra.',
+  'lookup-failed': 'Không thể tải chi tiết của tiện ích mở rộng này. Hãy thử lại.',
+  'retryLookup': 'Thử lại',
+  'unavailable': 'Tiện ích mở rộng này hiện không thể bật. Hãy kiểm tra mục Tiện ích mở rộng.',
+  'unknown': 'Đề xuất này hiện không khả dụng. Hãy mở lại phiên trò chuyện.',
+  'access-denied': 'Bạn không có quyền thay đổi cấu hình này.',
+  'not-live-root': 'Hãy sử dụng đề xuất này trong phiên trò chuyện gốc.',
+  'closing': 'Dịch vụ đang tải lại. Hãy thử lại sau giây lát.',
+  'transport': 'Không thể xác nhận kết quả. Hãy làm mới và thử lại.',
+} satisfies Record<keyof typeof en, string>

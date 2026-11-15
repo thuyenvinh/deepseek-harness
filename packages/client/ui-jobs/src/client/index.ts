@@ -14,7 +14,7 @@ import type {} from '@deepseek-ai/dsh-client-locale/client'
 import type {} from '@deepseek-ai/dsh-client-ui-renderer/client'
 import type {} from '@deepseek-ai/dsh-client-ui-session/client'
 import type {} from '@deepseek-ai/dsh-client-ui-session-panel/client'
-import { en, ja, es, fr, de, ru, pt, NS, zh, type JobKey } from './locales.ts'
+import { en, ja, es, fr, de, ru, pt, vi, NS, zh, type JobKey } from './locales.ts'
 
 declare module '@deepseek-ai/dsh-client-ui-slots' {
   interface LocaleNamespaceMap {
@@ -33,7 +33,7 @@ export const inject = ['jobs', 'slots', 'locale']
  * @param ctx - client root context.
  */
 export function apply(ctx: ClientContext): void {
-  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt }), 'ui-jobs: dictionaries')
+  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt, vi }), 'ui-jobs: dictionaries')
   const t = ctx.locale.bind(NS)
   ctx.slots.inject(
     'conversation.session.panel.section',

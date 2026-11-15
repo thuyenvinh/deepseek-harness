@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Bảng yêu cầu thay đổi",
+    "description": "Hiển thị các yêu cầu thay đổi của phiên làm việc trong tab thanh bên và cho phép khởi đầu phiên mới trong một cây làm việc (worktree)."
+  }
+}

@@ -62,3 +62,9 @@ export const pt = {
   'secret.reveal': 'Mostrar segredo',
   'secret.hide': 'Ocultar segredo',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'secret.reveal': 'Hiển thị khóa bí mật',
+  'secret.hide': 'Ẩn khóa bí mật',
+} satisfies Record<keyof typeof en, string>

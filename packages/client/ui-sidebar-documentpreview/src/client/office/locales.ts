@@ -152,3 +152,22 @@ export const pt = {
   busy: 'A visualização do Office está ocupada. Tente novamente em breve.',
   changed: 'O arquivo foi alterado durante a leitura. Reabra a visualização.',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'title': 'Tài liệu Office',
+  'loading': 'Đang hiển thị tài liệu...',
+  'retry': 'Thử lại',
+  'viewMissingFonts': 'Thiếu phông chữ: {count}. Nhấp để xem.',
+  'missingFontsTitle': 'Phông chữ bị thiếu',
+  'missingFontsDescription': 'Các phông chữ này không khả dụng cho bản xem trước này. Văn bản và bố cục có thể khác với tài liệu gốc.',
+  'missingFontsCount': 'Phông chữ: {count}',
+  'closeDetails': 'Đóng chi tiết phông chữ',
+  'unavailable': 'Xem trước Office không khả dụng. Hãy bật dịch vụ xem trước tài liệu trên máy tính chạy DeepSeek Harness.',
+  'invalid': 'Không thể xem trước tập tin Office này. Tập tin có thể bị hỏng, được bảo vệ bằng mật khẩu hoặc sai phần mở rộng.',
+  'tooLarge': 'Tập tin Office hoặc PDF đã chuyển đổi vượt quá giới hạn kích thước xem trước. Hãy giảm kích thước tập tin hoặc điều chỉnh cấu hình xem trước.',
+  'failed': 'Chuyển đổi Office không tạo ra tập tin PDF khả dụng. Hãy kiểm tra tập tin và thử lại.',
+  'timeout': 'Chuyển đổi Office đã hết thời gian. Hãy thử lại.',
+  'busy': 'Trình xem trước Office đang bận. Hãy thử lại sau giây lát.',
+  'changed': 'Tập tin đã thay đổi trong khi đang đọc. Hãy mở lại bản xem trước.',
+} satisfies Record<keyof typeof en, string>

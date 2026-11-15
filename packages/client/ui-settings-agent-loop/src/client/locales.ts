@@ -144,3 +144,19 @@ export const pt = {
   saveFailed: 'A implantação não aceitou esses valores; eles foram deixados para você corrigir.',
   invalidNumber: 'Insira um número ou deixe em branco para usar o padrão.',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'title': 'Vòng lặp tác nhân',
+  'description': 'Kiểm soát cách tác nhân điều phối các lệnh gọi công cụ.',
+  'maxParallel': 'Lệnh gọi công cụ song song',
+  'maxParallelHint': 'Giới hạn trên cho các lệnh gọi song song an toàn chạy cùng lúc trong một bước.',
+  'overridden': 'Đã ghi đè',
+  'reset': 'Đặt lại về mặc định',
+  'readOnly': 'Bản triển khai này lưu trữ cài đặt ở chế độ chỉ đọc.',
+  'unavailable': 'Tiện ích mở rộng này chưa được tải nên hiện không thể định cấu hình.',
+  'save': 'Lưu',
+  'saving': 'Đang lưu…',
+  'saveFailed': 'Bản triển khai không chấp nhận các giá trị này; chúng được giữ nguyên để bạn sửa lại.',
+  'invalidNumber': 'Nhập một số hoặc để trống để sử dụng mặc định.',
+} satisfies Record<keyof typeof en, string>

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Yêu cầu thay đổi và cây làm việc",
+    "description": "Theo dõi các pull request GitHub được liên kết ngay cạnh cuộc trò chuyện của bạn: theo dõi kiểm tra và đánh giá mã, xem khác biệt dòng mã (diff) và gửi phản hồi cho tác nhân. Xem xét các thay đổi cục bộ và sử dụng cây làm việc (worktree) riêng để cô lập từng nhiệm vụ. Các tính năng GitHub yêu cầu máy chủ phải cài đặt gh CLI và đã đăng nhập.",
+    "detail": "docs/DETAIL.md"
+  }
+}

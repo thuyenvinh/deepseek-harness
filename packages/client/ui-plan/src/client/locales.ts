@@ -162,3 +162,23 @@ export const pt = {
   'chip.on.title': 'Modo de planejamento ativado – clique para desligar (/plan off)',
   'chip.exitFailed': 'Falha ao sair do modo de plano',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'chip.label': 'Kế hoạch',
+  'preview.title': 'Kế hoạch',
+  'preview.document': 'Kế hoạch · Markdown',
+  'preview.action': 'Mở',
+  'preview.open': 'Mở kế hoạch trong thanh bên',
+  'preview.full': 'Xem toàn bộ kế hoạch',
+  'preview.openNamed': 'Mở kế hoạch: {title}',
+  'preview.loading': 'Đang tải kế hoạch…',
+  'preview.failed': 'Không thể tải kế hoạch',
+  'preview.invalidAddress': 'Địa chỉ kế hoạch không hợp lệ',
+  'preview.notFound': 'Không tìm thấy kế hoạch này',
+  'preview.unavailable': 'Bản xem trước kế hoạch không khả dụng',
+  'preview.expired': 'Bản xem trước kế hoạch tạm thời này đã hết hạn. Hãy mở lại từ thẻ đánh giá đang chờ xử lý.',
+  'chip.on.aria': 'Chế độ kế hoạch đang bật, nhấn để tắt',
+  'chip.on.title': 'Chế độ kế hoạch đang bật — nhấp để tắt (/plan off)',
+  'chip.exitFailed': 'Không thể thoát chế độ kế hoạch',
+} satisfies Record<keyof typeof en, string>

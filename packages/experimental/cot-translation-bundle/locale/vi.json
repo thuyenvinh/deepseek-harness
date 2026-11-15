@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Dịch máy quá trình suy luận",
+    "description": "Dịch các dòng suy luận mở rộng sang ngôn ngữ bạn đã chọn khi tác nhân tạo ra chúng, và cho phép chuyển lại xem bản gốc.",
+    "detail": "docs/DETAIL.md"
+  }
+}

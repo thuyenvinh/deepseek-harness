@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Bộ điều hợp mô hình pi-ai",
+    "description": "Cung cấp bộ điều hợp mô hình DeepSeek cho DeepSeek Harness thông qua pi-ai, dùng làm bản triển khai xác thực thiết kế cho dsh-llm-deepseek."
+  }
+}

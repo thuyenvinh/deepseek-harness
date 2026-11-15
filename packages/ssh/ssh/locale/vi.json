@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Kết nối SSH",
+    "description": "Chia sẻ các kết nối OpenSSH và trình hỗ trợ POSIX từ xa có phiên bản."
+  }
+}

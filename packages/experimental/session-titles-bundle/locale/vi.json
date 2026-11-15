@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Tiêu đề cập nhật theo cuộc trò chuyện",
+    "description": "Đặt tiêu đề phiên làm việc dựa trên tất cả tin nhắn của bạn và tự động cập nhật khi nhiệm vụ chính thay đổi thay vì chỉ dựa vào tin nhắn đầu tiên.",
+    "detail": "docs/DETAIL.md"
+  }
+}

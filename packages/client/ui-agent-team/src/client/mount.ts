@@ -15,7 +15,7 @@ import { TeamModePane, TeamModeToggle, type TeamModePaneInjected } from './TeamM
 import { TeamBoard, TeamProgress } from './TeamBoard.tsx'
 import { createTeamBoardStore } from './team-board-store.ts'
 import { TeamCommandRow } from './TeamCommandRow.tsx'
-import { en, ja, es, fr, de, ru, pt, NS, zh, type TeamKey } from './locales.ts'
+import { en, ja, es, fr, de, ru, pt, vi, NS, zh, type TeamKey } from './locales.ts'
 
 declare module '@deepseek-ai/dsh-client-ui-slots' {
   interface LocaleNamespaceMap {
@@ -33,7 +33,7 @@ export const inject = ['slots', 'locale']
  * @param ctx - Client Context carrying the injected locale and slot services.
  */
 export function registerAgentTeamUi(ctx: ClientContext): void {
-  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt }), 'client-ui-agent-team: dictionaries')
+  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt, vi }), 'client-ui-agent-team: dictionaries')
   const t = ctx.locale.bind(NS)
   ctx.slots.inject('conversation.chat.commandview', () => ctx.slots.register({
     name: 'conversation.chat.commandview', key: 'team', locale: NS,

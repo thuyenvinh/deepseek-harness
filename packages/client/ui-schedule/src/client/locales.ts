@@ -2,7 +2,7 @@
  * `schedule.catalog` namespace dictionaries: the Session header catalog and the
  * Sidebar row mark with its hover-card task section.
  */
-import { frequencyEn, frequencyJa, frequencyEs, frequencyFr, frequencyDe, frequencyRu, frequencyPt, frequencyZh } from './frequency-locales.ts'
+import { frequencyEn, frequencyJa, frequencyEs, frequencyFr, frequencyDe, frequencyRu, frequencyPt, frequencyVi, frequencyZh } from './frequency-locales.ts'
 
 /** Dictionary namespace owned by this plugin. */
 export const NS = 'schedule.catalog'
@@ -176,4 +176,25 @@ export const pt = {
   ...frequencyPt,
   'mark.aria': '{count} tarefas de automação',
   'hover.more': '{count} mais',
+} satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'trigger.label': 'Nhiệm vụ tự động hóa',
+  'list.loading': 'Đang tải các nhiệm vụ tự động hóa…',
+  'list.error': 'Không thể tải các nhiệm vụ tự động hóa.',
+  'list.retry': 'Thử lại',
+  'delete.action': 'Xóa',
+  'delete.pending': 'Đang xóa…',
+  'delete.label': 'Xóa nhiệm vụ tự động hóa: {title}',
+  'list.open': 'Mở chi tiết nhiệm vụ tự động hóa: {title}',
+  'trigger.one': '{count} nhiệm vụ tự động hóa',
+  'trigger.other': '{count} nhiệm vụ tự động hóa',
+  'list.aria': 'Nhiệm vụ tự động hóa đã bật',
+  'list.nextRun': 'Lần chạy tiếp theo',
+  'frequency.once': 'Một lần',
+  'frequency.every': 'Mỗi {value} {unit}',
+  ...frequencyVi,
+  'mark.aria': '{count} nhiệm vụ tự động hóa',
+  'hover.more': 'Thêm {count} nhiệm vụ khác',
 } satisfies Record<keyof typeof en, string>

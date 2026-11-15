@@ -196,7 +196,7 @@ const BILLING_COPY = {
 const BILLINGS: readonly WebBilling[] = ['auto', 'account', 'api-key']
 
 /** Separator between the field names of the advanced-override tag, by language. */
-const FIELD_SEPARATOR = { en: ', ', zh: '、', ja: '、', es: ', ', fr: ', ', de: ', ', ru: ', ', pt: ', ' }
+const FIELD_SEPARATOR = { en: ', ', zh: '、', ja: '、', es: ', ', fr: ', ', de: ', ', ru: ', ', pt: ', ', vi: ', ' }
 
 /**
  * One capability's billing menu with the selected billing's explanation. While the capability's own endpoint fields

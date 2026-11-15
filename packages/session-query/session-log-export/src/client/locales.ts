@@ -147,3 +147,21 @@ export const pt = {
   'dialog.close': 'Fechar',
   'dialog.commandFailed': 'Não foi possível iniciar a exportação da sessão.',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'menu.copyMarkdown': 'Sao chép phiên làm việc dưới dạng Markdown',
+  'menu.download': 'Tải xuống nhật ký phiên làm việc',
+  'menu.feedback': 'Phản hồi',
+  'toast.copied': 'Phiên làm việc đã được sao chép dưới dạng Markdown.',
+  'toast.preparationFailed': 'Không thể đọc phiên làm việc để sao chép. Thử lại.',
+  'toast.clipboardFailed': 'Không thể ghi vào bảng tạm. Kiểm tra quyền truy cập bảng tạm và thử lại.',
+  'dialog.session': 'Phiên: {sessionId}',
+  'dialog.preparingTitle': 'Đang xuất phiên làm việc',
+  'dialog.preparingDescription': 'Đang chuẩn bị tệp ZIP chứa phiên làm việc đã chọn, các phiên con và tệp đính kèm.',
+  'dialog.successTitle': 'Đã bắt đầu tải xuống phiên làm việc',
+  'dialog.successDescription': 'Trình duyệt đang tải xuống tệp ZIP của phiên làm việc.',
+  'dialog.errorTitle': 'Xuất phiên làm việc thất bại',
+  'dialog.close': 'Đóng',
+  'dialog.commandFailed': 'Không thể bắt đầu xuất phiên làm việc.',
+} satisfies Record<keyof typeof en, string>

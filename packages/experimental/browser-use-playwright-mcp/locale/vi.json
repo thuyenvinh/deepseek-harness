@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Thao tác trình duyệt (Playwright)",
+    "description": "Cho phép mô hình duyệt và thao tác các trang web qua Playwright MCP trong một phiên bản Chromium được khởi chạy."
+  }
+}

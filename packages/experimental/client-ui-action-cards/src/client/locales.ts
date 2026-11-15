@@ -64,3 +64,14 @@ export const pt: Record<ActionCardKey, string> = {
   unavailable: 'Esta ação não está disponível. Verifique o plug-in em Plug-ins.',
   transport: 'Não foi possível confirmar o resultado. Reconecte-se e verifique o cartão antes de tentar novamente.',
 }
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'expandBrief': 'Hiển thị thêm',
+  'collapseBrief': 'Thu gọn',
+  'dismiss': 'Để sau',
+  'dismissed': 'Đã bỏ qua',
+  'replaced': 'Đã thay thế',
+  'unavailable': 'Hành động này hiện không khả dụng. Hãy kiểm tra tiện ích mở rộng trong mục Tiện ích mở rộng.',
+  'transport': 'Không thể xác nhận kết quả. Hãy kết nối lại và kiểm tra thẻ trước khi thử lại.',
+} satisfies Record<keyof typeof en, string>

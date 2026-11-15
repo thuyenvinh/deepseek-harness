@@ -188,3 +188,24 @@ export const pt = {
   'time.months': '{n} mês',
   'time.years': '{n}s',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'menu.addToChat': 'Thêm vào cuộc trò chuyện',
+  'menu.addToChatFailed': 'Không thể thêm tệp. Vui lòng quay lại cuộc trò chuyện và thử lại.',
+  'section.files': 'Tệp & thư mục',
+  'section.subagents': 'Tác nhân con',
+  'section.sessions': 'Phiên làm việc',
+  'candidate.noCwd': '(không có thư mục làm việc)',
+  'crumb.root': 'Không gian làm việc',
+  'fileOpen.title': 'Không thể mở tệp',
+  'fileOpen.failed': 'Không thể mở “{path}”. Hãy thử lại hoặc đóng thông báo này.',
+  'fileOpen.close': 'Đóng',
+  'fileOpen.retry': 'Thử lại',
+  'time.now': 'vừa xong',
+  'time.minutes': '{n} phút',
+  'time.hours': '{n} giờ',
+  'time.days': '{n} ngày',
+  'time.months': '{n} tháng',
+  'time.years': '{n} năm',
+} satisfies Record<keyof typeof en, string>

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Hook Claude Code",
+    "description": "Thực thi các hook từ tệp hooks.json hoặc settings của Claude Code tại các điểm chặn của Harness."
+  }
+}

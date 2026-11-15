@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Bộ nhớ đệm trạng thái phiên",
+    "description": "Lưu vào bộ nhớ đệm trạng thái được tạo từ nhật ký phiên để các tính năng như danh sách phiên đọc nhanh."
+  }
+}

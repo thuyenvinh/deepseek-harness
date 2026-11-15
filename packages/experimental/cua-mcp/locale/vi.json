@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Máy chủ MCP thao tác máy tính",
+    "description": "Cung cấp tính năng Computer Use cho Codex, Claude Code và các máy khách MCP khác từ cấu hình chạy cua-mcp: cua_run_code chạy các chương trình liên tục tương tác với ứng dụng máy tính để bàn, và cua_reset sẽ xóa sạch chúng."
+  }
+}

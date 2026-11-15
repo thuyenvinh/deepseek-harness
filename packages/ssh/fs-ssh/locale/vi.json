@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Hệ thống tệp SSH",
+    "description": "Truy cập các tệp từ xa thông qua trình hỗ trợ POSIX SSH dùng chung."
+  }
+}

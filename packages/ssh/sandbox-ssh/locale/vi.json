@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Hộp cát tiến trình SSH",
+    "description": "Tạo các lệnh hộp cát cho tiến trình POSIX từ xa thông qua trình hỗ trợ SSH dùng chung."
+  }
+}

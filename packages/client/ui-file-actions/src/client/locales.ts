@@ -130,3 +130,19 @@ export const pt = {
   'menu.downloaded': 'Download concluído',
   'path.revealError': 'Não foi possível mostrar o local do arquivo. Tente novamente.',
 } satisfies Record<FileActionKey, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'menu.finder': 'Hiển thị trong Finder',
+  'menu.reveal': 'Hiển thị trong thư mục',
+  'menu.saveAs': 'Lưu thành…',
+  'menu.copied': 'Đã sao chép',
+  'menu.copyImage': 'Sao chép hình ảnh',
+  'menu.download': 'Tải xuống',
+  'menu.saveFailed': 'Không thể lưu. Hãy kiểm tra nguồn và đích, sau đó thử lại.',
+  'menu.copyFailed': 'Không thể sao chép. Hãy kiểm tra nội dung có khả dụng không, sau đó thử lại.',
+  'menu.saved': 'Đã lưu',
+  'menu.downloadStarted': 'Đã bắt đầu tải xuống',
+  'menu.downloaded': 'Tải xuống hoàn tất',
+  'path.revealError': 'Không thể hiển thị vị trí tệp. Thử lại.',
+} satisfies Record<keyof typeof en, string>

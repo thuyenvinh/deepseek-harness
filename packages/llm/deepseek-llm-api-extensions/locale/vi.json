@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Phần mở rộng API DeepSeek",
+    "description": "Cho phép các tiện ích mở rộng khác thêm các trường mở rộng vào yêu cầu mô hình DeepSeek."
+  }
+}

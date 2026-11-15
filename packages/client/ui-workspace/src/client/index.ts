@@ -62,7 +62,7 @@ import { SessionRenameDialog } from './session-actions/RenameSession.tsx'
 import { RowActionToast } from './session-actions/RowActionToast.tsx'
 import { registerToasts } from './toast/register.ts'
 import { WorkspacePicker, WorkspacePickerFactory } from './WorkspacePicker.tsx'
-import { en, ja, es, fr, de, ru, pt, zh, type WorkspaceKey } from './locales.ts'
+import { en, ja, es, fr, de, ru, pt, vi, zh, type WorkspaceKey } from './locales.ts'
 
 export type { StartSessionOptions, UiWorkspace } from './navigation.ts'
 export type {
@@ -175,7 +175,7 @@ export function apply(ctx: Context, config: SyncedConfig<WorkspaceNavigationConf
         : ctx.remoteAccess.source('workspace', workspaceId, action),
     },
   })
-  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt }), 'ui-workspace: dictionaries')
+  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt, vi }), 'ui-workspace: dictionaries')
   const shortcutControls = createWorkspaceShortcutControls()
 
   const searchSessions: WorkspaceBrowserInjected['searchSessions'] = async (query, signal) => {

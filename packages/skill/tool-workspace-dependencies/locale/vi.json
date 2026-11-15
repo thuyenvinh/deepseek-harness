@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Phụ thuộc không gian làm việc",
+    "description": "Cung cấp đường dẫn tuyệt đối đến các môi trường chạy Python, Node.js và pnpm tích hợp sẵn."
+  }
+}

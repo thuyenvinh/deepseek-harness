@@ -247,3 +247,33 @@ export const pt = {
   'load.failed.detail': 'Falha no carregamento da página ({code}): {description}',
   'address.unknown': 'A página navegada; esta operadora não consegue ler seu novo URL.',
 } satisfies Record<keyof typeof en, string>
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'type.label': 'Trình duyệt',
+  'guide.title': 'Trình duyệt',
+  'guide.description': 'Duyệt trang web',
+  'shortcut.noSession': 'Hãy mở một phiên trước',
+  'address.placeholder': 'Nhập địa chỉ HTTP(S)',
+  'address.changed': 'URL đã thay đổi',
+  'back': 'Quay lại',
+  'forward': 'Tiến lên',
+  'reload': 'Tải lại',
+  'go': 'Đi đến',
+  'external': 'Mở trong trình duyệt hệ thống',
+  'sandbox.disable': 'Tắt các giới hạn hộp cát',
+  'sandbox.enable': 'Khôi phục các giới hạn hộp cát',
+  'sandbox.warning': 'Các giới hạn hộp cát đã bị tắt; trang web có thể điều hướng ứng dụng cấp cao nhất và sử dụng tải xuống, hộp thoại phương thức cùng khóa nhập liệu.',
+  'start': 'Nhập địa chỉ HTTP(S) để bắt đầu duyệt web',
+  'loading': 'Đang mở…',
+  'restore.previous': 'Đã mở trước đó',
+  'restore.action': 'Khôi phục trang',
+  'error.empty': 'Hãy nhập địa chỉ.',
+  'error.invalid': 'Địa chỉ đó không hợp lệ hoặc quá dài.',
+  'error.protocol': 'Chỉ hỗ trợ địa chỉ HTTP và HTTPS; sử dụng Xem trước tài liệu cho các tệp cục bộ.',
+  'error.credentials': 'Địa chỉ không được chứa tên người dùng hoặc mật khẩu.',
+  'error.application-origin': 'Trình duyệt nhúng không thể mở chính ứng dụng DSH.',
+  'load.failed': 'Không thể tải trang; hãy tải lại hoặc mở trong trình duyệt hệ thống.',
+  'load.failed.detail': 'Tải trang thất bại ({code}): {description}',
+  'address.unknown': 'Trang đã điều hướng; trình mang này không thể đọc URL mới của nó.',
+} satisfies Record<keyof typeof en, string>

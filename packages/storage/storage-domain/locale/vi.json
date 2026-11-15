@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Lưu trữ dữ liệu có cấu trúc",
+    "description": "Xác thực và lưu trữ dữ liệu khóa-giá trị theo cấu trúc dữ liệu, đồng thời thông báo cho các tiện ích mở rộng khác khi có thay đổi."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Backend shell bền vững",
+    "description": "Cung cấp terminal shell có thể giữ lại trạng thái qua nhiều lần gọi."
+  }
+}

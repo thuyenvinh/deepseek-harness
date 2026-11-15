@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Định nghĩa cấu hình sẵn Agent",
+    "description": "Khai báo một cấu hình sẵn của Agent và tổ hợp tiện ích mở rộng mà nó sử dụng."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "nsisLanguage": "VIETNAMESE",
+  "strings": {
+    "INSTALLER_UPDATE_WAIT": "Đang cài đặt bản cập nhật. Ứng dụng sẽ tự động khởi động lại sau khi hoàn tất cập nhật.",
+    "INSTALLER_INSTALL": "Cài đặt ngay",
+    "INSTALLER_FINISH": "Hoàn tất",
+    "INSTALLER_NATIVE_PROGRESS": "Đang chuẩn bị cài đặt… %d%%",
+    "INSTALLER_PROGRESS_EXTRACT": "Đang giải nén tệp… %d%%",
+    "INSTALLER_PROGRESS_COPY": "Đang cài đặt các tệp… %d%%",
+    "INSTALLER_PROGRESS_REGISTER": "Đang hoàn tất cài đặt… %d%%",
+    "INSTALLER_PROGRESS_CLEAN": "Đang dọn dẹp các tệp tạm… %d%%",
+    "INSTALLER_CHOOSE_PATH": "Chọn vị trí cài đặt",
+    "INSTALLER_BROWSE": "Duyệt",
+    "INSTALLER_LAUNCH": "Khởi chạy ngay",
+    "INSTALLER_LAUNCH_FAILED": "Không thể khởi chạy DeepSeek Harness. Vui lòng thử lại, hoặc bỏ chọn Khởi chạy ngay và đóng trình cài đặt.",
+    "INSTALLER_UI_ERROR": "Trình cài đặt không thể khởi tạo cửa sổ giao diện. Vui lòng đóng và thử lại.",
+    "INSTALLER_THEME_ERROR": "Sử dụng /THEME=auto, /THEME=light hoặc /THEME=dark.",
+    "INSTALLER_FAILED": "Quá trình cài đặt chưa hoàn tất. Vui lòng đóng trình cài đặt này và thử lại. Nếu sự cố vẫn tiếp diễn, hãy tải lại gói cài đặt.",
+    "INSTALLER_RUNNING": "DeepSeek Harness đang chạy. Vui lòng thoát ứng dụng từ khay hệ thống và thử lại.",
+    "INSTALLER_DIRECTORY_FAILED": "Không thể thay thế thư mục cài đặt.",
+    "INSTALLER_DIRECTORY_HINT": "Vui lòng kiểm tra quyền truy cập thư mục cài đặt và đóng các chương trình đang sử dụng tệp của ứng dụng, sau đó chạy lại trình cài đặt. Hãy sao chép chi tiết lỗi nếu sự cố vẫn tiếp diễn.",
+    "INSTALLER_DIRECTORY_RESTORE_HINT": "Không thể khôi phục bản cài đặt trước đó. Vui lòng giữ lại thư mục sao lưu hiển thị trong chi tiết lỗi và liên hệ hỗ trợ trước khi cài đặt lại.",
+    "INSTALLER_PATH_INVALID": "Vui lòng chọn đường dẫn thư mục cục bộ đầy đủ. Thư mục gốc ổ đĩa, thư mục hệ thống, liên kết và các ký tự đặc biệt không được hỗ trợ.",
+    "INSTALLER_PATH_OWNERSHIP": "Vui lòng chọn một thư mục trống hoặc thư mục cài đặt DeepSeek Harness đã đăng ký.",
+    "INSTALLER_PATH_WRITABLE": "Vị trí này không có quyền ghi. Vui lòng chọn một thư mục có thể ghi đối với người dùng hiện tại.",
+    "INSTALLER_DISK_SPACE": "Không đủ dung lượng đĩa trống. Vui lòng chọn một vị trí khác.",
+    "INSTALLER_PER_USER": "Trình cài đặt này chỉ hỗ trợ người dùng hiện tại. Vui lòng gỡ cài đặt phiên bản dùng chung cho tất cả người dùng trước.",
+    "INSTALLER_EXTRACT_FAILED": "Không thể giải nén các tệp ứng dụng.",
+    "INSTALLER_EXTRACT_HINT": "Phần mềm bảo mật có thể đã chặn tệp, hoặc ổ đĩa đã đầy. Vui lòng đóng trình cài đặt này và thử lại. Nếu tiếp tục thất bại, hãy gửi chi tiết lỗi bên dưới cho chúng tôi.",
+    "INSTALLER_EXTRACT_COPY": "Sao chép chi tiết lỗi",
+    "INSTALLER_EXTRACT_EXPAND": "Hiện chi tiết",
+    "INSTALLER_EXTRACT_COLLAPSE": "Ẩn chi tiết",
+    "INSTALLER_EXTRACT_SAVED": "Báo cáo đầy đủ đã được lưu vào %s",
+    "INSTALLER_EXTRACT_UNSAVED": "Không thể lưu báo cáo đầy đủ. Vui lòng sử dụng Sao chép chi tiết lỗi để lưu giữ.",
+    "INSTALLER_EXTRACT_COPIED": "Chi tiết lỗi đã được sao chép vào khay nhớ tạm."
+  },
+  "uninstaller": {
+    "welcome": "Chào mừng",
+    "finished": "đã được gỡ cài đặt"
+  }
+}

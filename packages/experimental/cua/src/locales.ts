@@ -56,6 +56,14 @@ export const pt = {
   approve: 'Permitir nesta sessão',
 } satisfies Record<keyof typeof en, string>
 
+
+/** Vietnamese application-access messages. */
+export const vi = {
+  'question': 'Cho phép tác nhân điều khiển ứng dụng này thông qua Computer Use?',
+  'detail': 'Quản lý quyền ứng dụng cho tất cả phiên làm việc trên trang tiện ích mở rộng.',
+  'approve': 'Cho phép đối với phiên này',
+} satisfies Record<keyof typeof en, string>
+
 /** Display translations resolved by the Client; wire choices stay unchanged. */
 export const applicationAccessDisplay = {
   question: {
@@ -67,8 +75,12 @@ export const applicationAccessDisplay = {
     de: de.question,
     ru: ru.question,
     pt: pt.question,
+    vi: vi.question,
   },
-  detail: { en: en.detail, zh: zh.detail, ja: ja.detail, es: es.detail, fr: fr.detail, de: de.detail, ru: ru.detail, pt: pt.detail },
+  detail: {
+    en: en.detail, zh: zh.detail, ja: ja.detail, es: es.detail, fr: fr.detail,
+    de: de.detail, ru: ru.detail, pt: pt.detail, vi: vi.detail,
+  },
   approve: {
     en: en.approve,
     zh: zh.approve,
@@ -78,6 +90,7 @@ export const applicationAccessDisplay = {
     de: de.approve,
     ru: ru.approve,
     pt: pt.approve,
+    vi: vi.approve,
   },
 }
 
@@ -91,6 +104,7 @@ export const windowAccessQuestion = {
   de: 'Lesen, Aufnehmen und Steuern dieses Fensters erlauben?',
   ru: 'Разрешить чтение, снимки и управление этим окном?',
   pt: 'Permitir ler, capturar e controlar esta janela?',
+  vi: 'Cho phép thao tác máy tính đọc, chụp ảnh và điều khiển cửa sổ này?',
 }
 /** Launch consent does not grant access to resulting windows. */
 export const launchAccessQuestion = {
@@ -102,4 +116,5 @@ export const launchAccessQuestion = {
   de: 'Diesen Eintrag starten? Fensterzugriff wird separat angefragt.',
   ru: 'Разрешить запуск? Доступ к окнам запрашивается отдельно.',
   pt: 'Permitir iniciar esta entrada? O acesso às janelas é solicitado separadamente.',
+  vi: 'Cho phép thao tác máy tính khởi chạy mục này? Quyền truy cập cửa sổ sẽ được yêu cầu riêng.',
 }

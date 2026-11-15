@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Công cụ terminal duy trì",
+    "description": "Cung cấp sáu công cụ PTY duy trì với quyền sở hữu phiên được cô lập và tích hợp tác vụ nền."
+  }
+}

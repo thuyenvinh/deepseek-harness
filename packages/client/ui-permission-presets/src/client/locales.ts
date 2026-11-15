@@ -38,6 +38,23 @@ export const en = {
   'confirm.enable': 'Enable Full access',
 } satisfies Record<PermissionSettingsKey, string>
 
+
+/** Vietnamese copy, checked against the English keys. */
+export const vi = {
+  'title': 'Quyền hạn',
+  'description': 'Chọn chế độ quyền mặc định cho các phiên mới',
+  'loading': 'Đang tải',
+  'unavailable': 'Không khả dụng',
+  'preset.readOnly': 'Chỉ đọc',
+  'preset.workspaceWrite': 'Ghi trong không gian làm việc',
+  'preset.fullAccess': 'Toàn quyền truy cập',
+  'confirm.title': 'Bật toàn quyền truy cập?',
+  'confirm.description': 'Toàn quyền truy cập cho phép các phiên mới giảm bớt các bước xác nhận và thực hiện trực tiếp nhiều hành động hơn, bao gồm các hoạt động nhạy cảm, thay đổi tập tin hoặc lệnh bên ngoài. Chỉ sử dụng khi bạn tin tưởng các tác vụ tiếp theo.',
+  'confirm.acknowledge': 'Tôi hiểu các rủi ro và muốn tiếp tục',
+  'confirm.cancel': 'Hủy',
+  'confirm.enable': 'Bật toàn quyền truy cập',
+} satisfies Record<PermissionSettingsKey, string>
+
 /** Simplified Chinese dictionary for the current-session popup gate. */
 export const accessZh = {
   'mode': '访问模式，当前：{name}',
@@ -303,4 +320,25 @@ export const accessPt = {
   'auto.confirm.description': 'Auto review é executado sem sandbox. Antes de cada chamada de ferramenta nativa e chamada interna PTC, o mesmo modelo do agente atual analisa se deve permitir isso; você aprova ou rejeita cada chamada negada. Este recurso é experimental, pode permitir ou negar ações falsamente e usa tokens adicionais.',
   'auto.confirm.acknowledge': 'Entendo esses riscos e quero continuar',
   'auto.confirm.enable': 'Ativar Auto review',
+} satisfies typeof accessEn
+
+/** Vietnamese dictionary for the current-session popup gate. */
+export const accessVi = {
+  'mode': 'Chế độ truy cập, hiện tại: {name}',
+  'close': 'Đóng',
+  'preset.readOnly': 'Chỉ đọc',
+  'preset.workspaceWrite': 'Ghi vào không gian làm việc',
+  'preset.fullAccess': 'Toàn quyền truy cập',
+  'confirm.title': 'Bật toàn quyền truy cập?',
+  'confirm.description': 'Toàn quyền truy cập giảm các bước xác nhận và cho phép tác nhân thực hiện nhiều hành động trực tiếp hơn, bao gồm thao tác nhạy cảm, thay đổi tệp hoặc lệnh bên ngoài. Chỉ sử dụng khi bạn tin tưởng tác vụ hiện tại.',
+  'confirm.acknowledge': 'Tôi hiểu các rủi ro và muốn tiếp tục',
+  'confirm.cancel': 'Hủy',
+  'confirm.enable': 'Bật toàn quyền truy cập',
+  'auto.label': 'Tự động duyệt',
+  'auto.badge': 'EXP',
+  'auto.description': 'Chạy không có hộp cát sau bước xem xét thử nghiệm cùng mô hình cho mọi lệnh gọi công cụ gốc và lệnh gọi nội bộ PTC.',
+  'auto.confirm.title': 'Bật tự động duyệt (thử nghiệm)?',
+  'auto.confirm.description': 'Tự động duyệt chạy không có hộp cát. Trước mỗi lệnh gọi công cụ gốc và lệnh gọi nội bộ PTC, cùng mô hình với tác nhân hiện tại sẽ xem xét có cho phép hay không; bạn sẽ phê duyệt hoặc từ chối các lệnh gọi bị từ chối. Tính năng này vẫn đang thử nghiệm, có thể cho phép hoặc từ chối nhầm, và tiêu tốn thêm token.',
+  'auto.confirm.acknowledge': 'Tôi hiểu các rủi ro này và muốn tiếp tục',
+  'auto.confirm.enable': 'Bật tự động duyệt',
 } satisfies typeof accessEn

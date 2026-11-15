@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Đề xuất cá nhân hóa",
+    "description": "Hiển thị các thẻ gợi ý bên dưới câu trả lời dựa trên nhu cầu của bạn với DSH: khi bạn muốn có một trang hoặc công cụ nhỏ để dùng lâu dài, hệ thống sẽ đề xuất tạo trang cá nhân hóa mới và xây dựng dưới nền sau khi nhấp vào Tạo; khi bạn hỏi cách thực hiện tác vụ hoặc thông báo thiếu tính năng, hệ thống sẽ gợi ý tiện ích mở rộng tích hợp sẵn tương ứng và kích hoạt khi bạn nhấp vào Bật.",
+    "detail": "docs/DETAIL.md"
+  }
+}

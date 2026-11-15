@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Kiểm soát truy cập từ xa",
+    "description": "Kiểm soát phương thức mà các kết nối không phải chủ sở hữu có thể truy cập và lưu ảnh chụp nhanh quyền hạn cho từng kết nối."
+  }
+}

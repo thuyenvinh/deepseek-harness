@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cấu hình chạy ACP",
+    "description": "Cung cấp giao tiếp ACP dành riêng cho tự động hóa và quản lý vòng đời tiến trình trên dsh-base."
+  }
+}

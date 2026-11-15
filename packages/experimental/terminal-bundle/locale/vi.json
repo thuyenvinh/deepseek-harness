@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Terminal duy trì",
+    "description": "Cung cấp cho tác nhân các terminal mở dưới dạng tab thanh bên mà bạn có thể theo dõi và tiếp quản bằng cách nhập trực tiếp vào đó. Các tiến trình tiếp tục chạy giữa các lần gọi công cụ, cho phép tác nhân khởi động máy chủ phát triển hoặc REPL và quay lại đọc đầu ra sau; tác nhân cũng có thể đọc các terminal do chính bạn mở.",
+    "detail": "docs/DETAIL.md"
+  }
+}

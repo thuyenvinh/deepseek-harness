@@ -41,7 +41,7 @@ import { formatFileMention } from '@deepseek-ai/dsh-file-reference/grammar'
 import type { FileReferenceCandidate } from '@deepseek-ai/dsh-file-reference/types'
 import type { SessionReferenceMentionCandidate } from '@deepseek-ai/dsh-session-reference/types'
 import { abbreviateHomePath, fileAddressFor, resolveWorkspacePath } from '@deepseek-ai/dsh-util-workspace-path'
-import { en, ja, es, fr, de, ru, pt, NS, zh, type ReferenceKey } from './locales.ts'
+import { en, ja, es, fr, de, ru, pt, vi, NS, zh, type ReferenceKey } from './locales.ts'
 import { registerReferenceMenu } from './context-menu.ts'
 
 declare module '@deepseek-ai/dsh-api-session-controller/client' {
@@ -62,7 +62,7 @@ export const inject = [
  * @param ctx - client root context.
  */
 export function apply(ctx: ClientContext): void {
-  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt }), 'ui-reference: dictionaries')
+  ctx.effect(() => ctx.locale.register(NS, { zh, en, ja, es, fr, de, ru, pt, vi }), 'ui-reference: dictionaries')
   const t = ctx.locale.bind(NS)
   ctx.inject(['contextMenus', 'conversation'], (menuCtx) => { registerReferenceMenu(menuCtx, t) })
   const sessions = ctx.get('sessions') as ISessions

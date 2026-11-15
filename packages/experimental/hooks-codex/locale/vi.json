@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Hook Codex",
+    "description": "Thực thi các hook từ tệp hooks.json của Codex tại các điểm chặn của Harness."
+  }
+}
